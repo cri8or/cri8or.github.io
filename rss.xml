@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+    <channel>
+        <title>cri8or Artworks</title>
+        <link>https://yourwebsite.com</link>
+        <description>Latest digital abstract artworks by cri8or</description>
+        <item>
+            <title>Angular Tension</title>
+            <link>https://yourwebsite.com/gallery/geometric.html</link>
+            <description>Geometric design with angular elements and tension.</description>
+            <pubDate>Mon, 10 Nov 2025 10:00:00 GMT</pubDate>
+        </item>
+        <!-- Repeat for more artworks -->
+    </channel>
+</rss>
