@@ -1,85 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Minimalist portfolio and gallery for digital abstract artist cri8or">
-    <title>cri8or | Digital Abstract Artist</title>
-    <link rel="stylesheet" href="assets/css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Minimalist portfolio for digital abstract artist cri8or">
+  <title>cri8or | Digital Abstract Artist</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <!-- Font Awesome (free) for social icons in footer -->
+  <script src="https://kit.fontawesome.com/your_kit_id.js" crossorigin="anonymous"></script>
 </head>
 <body>
 
-    <!-- Header -->
-    <header>
-        <nav>
-            <div class="logo">
-                <a href="index.html">cri8or</a>
-            </div>
-            <ul class="nav-links">
-                <li><a href="index.html" class="active">Home</a></li>
-                <li><a href="#gallery">Gallery</a>
-                    <ul class="dropdown">
-                        <li><a href="geometric.html">Geometric designs</a></li>
-                        <li><a href="organic.html">Organic shapes</a></li>
-                        <li><a href="fluidity.html">Fluid lines</a></li>
-                        <li><a href="bold.html">Bold colors</a></li>
-                    </ul>
-                </li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="prints.html">Prints</a></li>
-                <li><a href="commissions.html">Commissions</a></li>
-                <li><a href="licensing.html">Licensing</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+  <!-- Sticky Header -->
+  <header>
+    <nav>
+      <div class="logo">
+        <a href="index.html">cri8or</a>
+      </div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="index.html#gallery">Gallery</a>
+          <ul class="dropdown">
+            <li><a href="geometric.html">Geometric designs</a></li>
+            <li><a href="organic.html">Organic shapes</a></li>
+            <li><a href="fluidity.html">Fluid lines</a></li>
+            <li><a href="bold.html">Bold colors</a></li>
+          </ul>
+        </li>
+        <li><a href="prints.html">Prints</a></li>
+        <li><a href="commissions.html">Commissions</a></li>
+        <li><a href="licensing.html">Licensing</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
-    <!-- Slider -->
-    <section class="slider">
-        <div class="slide fade">
-            <img src="assets/images/slider1.jpg" alt="Artwork 1">
-            <div class="text-overlay">
-                <h1>cri8or</h1>
-                <p>Digital Abstract Artist</p>
-            </div>
+  <!-- Fullscreen Image Slider -->
+  <section class="slider">
+    <div class="slide fade">
+      <img src="assets/images/slider1.jpg" alt="Artwork 1">
+      <div class="text-overlay">
+        <h1>cri8or</h1>
+        <p>Digital Abstract Artist</p>
+      </div>
+    </div>
+    <!-- Repeat for more slides if you have them -->
+  </section>
+
+  <!-- GALLERY now part of home page -->
+  <section id="gallery" class="gallery">
+    <div class="collection">
+      <!-- Example collection; you can add more categories if you like -->
+      <h2>Featured Artworks</h2>
+      <div class="grid">
+        <!-- Example artwork -->
+        <div class="artwork">
+          <img src="assets/images/organic1.jpg" alt="Organic Shape 1">
+          <div class="artwork-info">
+            <h3>Title: Organic Wave</h3>
+            <p>Year: 2025</p>
+          </div>
         </div>
-        <!-- You can add more slides here -->
-    </section>
+        <!-- Add more artworks here -->
+      </div>
+    </div>
+  </section>
 
-    <!-- GALLERY NOW PART OF HOME PAGE -->
-    <section id="gallery" class="gallery">
-        <div class="collection">
-            <h2>Organic Shapes</h2>
-            <div class="grid">
+  <!-- Sticky Footer -->
+  <footer>
+    <div class="social-icons">
+      <a href="https://www.tiktok.com/@cri8or" target="_blank"><i class="fab fa-tiktok"></i></a>
+      <a href="https://github.com/cri8or" target="_blank"><i class="fab fa-github"></i></a>
+    </div>
+    <a href="rss.xml">RSS Feed</a>
+    <p>&copy; 2025 cri8or</p>
+  </footer>
 
-                <!-- Artwork #1 example -->
-                <div class="artwork">
-                    <img src="assets/images/organic1.jpg" alt="Organic Shape 1">
-                    <div class="artwork-info">
-                        <h3>Title: Organic Wave</h3>
-                        <p>Year: 2025</p>
-                    </div>
-                </div>
-
-                <!-- Repeat more artworks here -->
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer>
-        <div class="social-icons">
-            <a href="https://tiktok.com/@cri8or" target="_blank" class="social-icon">
-                <i class="fab fa-tiktok"></i>
-            </a>
-            <a href="https://github.com/cri8or" target="_blank" class="social-icon">
-                <i class="fab fa-github"></i>
-            </a>
-        </div>
-        <a href="rss.xml">RSS Feed</a>
-        <p>&copy; 2025 cri8or</p>
-    </footer>
-
-    <script src="assets/js/script.js"></script>
+  <script src="assets/js/script.js"></script>
 </body>
 </html>
