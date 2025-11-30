@@ -1,81 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Minimalist portfolio for digital abstract artist cri8or">
-  <title>cri8or | Digital Abstract Artist</title>
-  <link rel="stylesheet" href="assets/css/style.css">
-  <!-- Font Awesome (free) for social icons in footer -->
-  <script src="https://kit.fontawesome.com/your_kit_id.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Minimalist portfolio for digital abstract artist cri8or">
+    <title>cri8or | Digital Abstract Artist</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
 <body>
+    <!-- Sticky Header -->
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="index.html">cri8or</a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="prints.html">Prints</a></li>
+                <li><a href="commissions.html">Commissions</a></li>
+                <li><a href="licensing.html">Licensing</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-  <!-- Sticky Header -->
-  <header>
-    <nav>
-      <div class="logo">
-        <a href="index.html">cri8or</a>
-      </div>
-      <ul class="nav-links">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="index.html#gallery">Gallery</a>
-          <ul class="dropdown">
-            <li><a href="geometric.html">Geometric designs</a></li>
-            <li><a href="organic.html">Organic shapes</a></li>
-            <li><a href="fluidity.html">Fluid lines</a></li>
-            <li><a href="bold.html">Bold colors</a></li>
-          </ul>
-        </li>
-        <li><a href="prints.html">Prints</a></li>
-        <li><a href="commissions.html">Commissions</a></li>
-        <li><a href="licensing.html">Licensing</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
-
-  <!-- Fullscreen Image Slider -->
-  <section class="slider">
-    <div class="slide fade">
-      <img src="assets/images/slider1.jpg" alt="Artwork 1">
-      <div class="text-overlay">
-        <h1>cri8or</h1>
-        <p>Digital Abstract Artist</p>
-      </div>
-    </div>
-    <!-- Repeat for more slides if you have them -->
-  </section>
-
-  <!-- GALLERY now part of home page -->
-  <section id="gallery" class="gallery">
-    <div class="collection">
-      <!-- Example collection; you can add more categories if you like -->
-      <h2>Featured Artworks</h2>
-      <div class="grid">
-        <!-- Example artwork -->
-        <div class="artwork">
-          <img src="assets/images/organic1.jpg" alt="Organic Shape 1">
-          <div class="artwork-info">
-            <h3>Title: Organic Wave</h3>
-            <p>Year: 2025</p>
-          </div>
+    <!-- Fullscreen Image Slider / Intro -->
+    <section class="slider">
+        <div class="slide fade">
+            <img src="assets/images/slider1.jpg" alt="Artwork 1">
+            <div class="text-overlay">
+                <h1>cri8or</h1>
+                <p>Digital Abstract Artist</p>
+            </div>
         </div>
-        <!-- Add more artworks here -->
-      </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- Sticky Footer -->
-  <footer>
-    <div class="social-icons">
-      <a href="https://www.tiktok.com/@cri8or" target="_blank"><i class="fab fa-tiktok"></i></a>
-      <a href="https://github.com/cri8or" target="_blank"><i class="fab fa-github"></i></a>
-    </div>
-    <a href="rss.xml">RSS Feed</a>
-    <p>&copy; 2025 cri8or</p>
-  </footer>
+    <!-- Collections Buttons -->
+    <section class="collections-buttons" style="text-align:center; margin: 40px 0;">
+        <a href="geometric.html" class="collection-btn">Geometric Designs</a>
+        <a href="organic.html" class="collection-btn">Organic Shapes</a>
+        <a href="fluidity.html" class="collection-btn">Fluid Lines</a>
+        <a href="bold.html" class="collection-btn">Bold Colors</a>
+    </section>
 
-  <script src="assets/js/script.js"></script>
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container" style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; background-color:#f8f8f8; padding:20px;">
+            <div class="social-icons">
+                <a href="https://tiktok.com/@cri8or" target="_blank"><i class="fab fa-tiktok"></i></a>
+                <a href="https://github.com/cri8or" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+            <div><a href="rss.xml">RSS Feed</a></div>
+            <div>&copy; 2025 cri8or</div>
+        </div>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
 </body>
 </html>

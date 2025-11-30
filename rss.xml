@@ -1,39 +1,38 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0">
-  <channel>
-    <title>cri8or | Digital Abstract Artist</title>
-    <link>https://cri8or.github.io/</link>
-    <description>Latest digital abstract artworks by cri8or</description>
+    <channel>
+        <title>cri8or | Digital Abstract Artist</title>
+        <link>https://cri8or.github.io/</link>
+        <description>Latest digital abstract artworks by cri8or</description>
 
-    <item>
-      <title>Angular Tension</title>
-      <link>https://cri8or.github.io/geometric.html</link>
-      <description>Geometric design with angular elements and tension.</description>
-    </item>
+        <item>
+            <title>Organic Wave</title>
+            <link>https://cri8or.github.io/organic.html</link>
+            <description>Organic Shapes Collection artwork</description>
+        </item>
 
-    <item>
-      <title>Dynamic Cubes</title>
-      <link>https://cri8or.github.io/geometric.html</link>
-      <description>Digital composition of abstract cubes and lines.</description>
-    </item>
+        <item>
+            <title>Linear Motion</title>
+            <link>https://cri8or.github.io/fluidity.html</link>
+            <description>Fluid Lines Collection artwork</description>
+        </item>
 
-    <item>
-      <title>Organic Wave</title>
-      <link>https://cri8or.github.io/organic.html</link>
-      <description>Flowing organic shapes in a soft digital palette.</description>
-    </item>
+        <item>
+            <title>Parallel Forces</title>
+            <link>https://cri8or.github.io/fluidity.html</link>
+            <description>Fluid Lines Collection artwork</description>
+        </item>
 
-    <item>
-      <title>Linear Motion</title>
-      <link>https://cri8or.github.io/fluidity.html</link>
-      <description>Fluid motion and linear abstractions.</description>
-    </item>
+        <item>
+            <title>Bold in Blue</title>
+            <link>https://cri8or.github.io/bold.html</link>
+            <description>Bold Colors Collection artwork</description>
+        </item>
 
-    <item>
-      <title>Vibrant Explosion</title>
-      <link>https://cri8or.github.io/bold.html</link>
-      <description>Bold color abstract artwork designed for impact.</description>
-    </item>
-
-  </channel>
+        <item>
+            <title>Vibrant Explosion</title>
+            <link>https://cri8or.github.io/bold.html</link>
+            <description>Bold Colors Collection artwork</description>
+        </item>
+    </channel>
 </rss>
