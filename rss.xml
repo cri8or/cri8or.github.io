@@ -6,29 +6,38 @@
         <description>Latest digital abstract artworks by cri8or</description>
 
         <item>
-            <title>Organic</title>
-            <link>https://cri8or.github.io/organic.html</link>
-            <description>Organic Shapes Collection artwork</description>
-        </item>
-        <item>
-            <title> Motion</title>
-            <link>https://cri8or.github.io/fluidity.html</link>
-            <description>Fluid Lines Collection artwork</description>
-        </item>
-        <item>
-            <title>Vibrant</title>
+            <title>Vibrant Hue</title>
             <link>https://cri8or.github.io/bold.html</link>
-            <description>Bold Colors Collection artwork</description>
+            <description>Bold, vibrant hues colliding in an expressive design.</description>
+            <pubDate>Thu, 15 Dec 2025 08:00:00 GMT</pubDate>
         </item>
+
         <item>
-            <title>Tension</title>
+            <title>Electric Burst</title>
+            <link>https://cri8or.github.io/bold.html</link>
+            <description>A striking burst of electrifying energy.</description>
+            <pubDate>Tue, 13 Dec 2025 08:00:00 GMT</pubDate>
+        </item>
+
+        <item>
+            <title>Organic Wave</title>
+            <link>https://cri8or.github.io/organic.html</link>
+            <description>Flowing organic shapes in a continuous wave of motion.</description>
+            <pubDate>Mon, 12 Dec 2025 08:00:00 GMT</pubDate>
+        </item>
+
+        <item>
+            <title>Fluid Geometry</title>
             <link>https://cri8or.github.io/geometric.html</link>
-            <description>Geometric Designs Collection artwork</description>
+            <description>Geometric forms fluidly connecting with one another.</description>
+            <pubDate>Sun, 11 Dec 2025 08:00:00 GMT</pubDate>
         </item>
+
         <item>
-            <title>Placeholder Artwork</title>
-            <link>https://cri8or.github.io/</link>
-            <description>Most recent artwork placeholder</description>
+            <title>Intersecting Lines</title>
+            <link>https://cri8or.github.io/fluidity.html</link>
+            <description>Intersecting fluid lines creating intricate patterns.</description>
+            <pubDate>Sat, 10 Dec 2025 08:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
