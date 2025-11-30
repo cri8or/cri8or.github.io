@@ -3,24 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Minimalist portfolio for digital abstract artist cri8or">
+    <meta name="description" content="Minimalist portfolio and gallery for digital abstract artist cri8or">
     <title>cri8or | Digital Abstract Artist</title>
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <!-- Sticky Header -->
+
+    <!-- Header -->
     <header>
         <nav>
             <div class="logo">
                 <a href="index.html">cri8or</a>
             </div>
             <ul class="nav-links">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="gallery.html">Gallery</a>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="#gallery">Gallery</a>
                     <ul class="dropdown">
                         <li><a href="geometric.html">Geometric designs</a></li>
                         <li><a href="organic.html">Organic shapes</a></li>
-                        <li><a href="stripes.html">Stripes</a></li>
+                        <li><a href="fluidity.html">Fluid lines</a></li>
                         <li><a href="bold.html">Bold colors</a></li>
                     </ul>
                 </li>
@@ -33,7 +34,7 @@
         </nav>
     </header>
 
-    <!-- Fullscreen Image Slider -->
+    <!-- Slider -->
     <section class="slider">
         <div class="slide fade">
             <img src="assets/images/slider1.jpg" alt="Artwork 1">
@@ -42,7 +43,27 @@
                 <p>Digital Abstract Artist</p>
             </div>
         </div>
-        <!-- Repeat for 5-7 images -->
+        <!-- You can add more slides here -->
+    </section>
+
+    <!-- GALLERY NOW PART OF HOME PAGE -->
+    <section id="gallery" class="gallery">
+        <div class="collection">
+            <h2>Organic Shapes</h2>
+            <div class="grid">
+
+                <!-- Artwork #1 example -->
+                <div class="artwork">
+                    <img src="assets/images/organic1.jpg" alt="Organic Shape 1">
+                    <div class="artwork-info">
+                        <h3>Title: Organic Wave</h3>
+                        <p>Year: 2025</p>
+                    </div>
+                </div>
+
+                <!-- Repeat more artworks here -->
+            </div>
+        </div>
     </section>
 
     <!-- Footer -->

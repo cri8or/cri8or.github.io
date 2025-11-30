@@ -2,14 +2,16 @@
 <rss version="2.0">
     <channel>
         <title>cri8or Artworks</title>
-        <link>https://yourwebsite.com</link>
+        <link>https://cri8or.github.io/</link>
         <description>Latest digital abstract artworks by cri8or</description>
+
+        <!-- Placeholder item — customize or remove -->
         <item>
-            <title>Angular Tension</title>
-            <link>https://yourwebsite.com/gallery/geometric.html</link>
-            <description>Geometric design with angular elements and tension.</description>
-            <pubDate>Mon, 10 Nov 2025 10:00:00 GMT</pubDate>
+            <title>New Artwork</title>
+            <link>https://cri8or.github.io/</link>
+            <description>Latest creation by digital abstract artist cri8or.</description>
+            <pubDate>Mon, 01 Jan 2025 00:00:00 GMT</pubDate>
         </item>
-        <!-- Repeat for more artworks -->
+
     </channel>
 </rss>
