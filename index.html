@@ -1,47 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Explore the digital abstract artwork collections of cri8or">
-    <title>Home | cri8or</title>
-	<link rel="icon" href="favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="assets/css/style.css">
+  <meta charset="UTF-8">
+  <title>cri8or — Contemporary Generative Art</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Favicon: adjust path/name if needed -->
+  <link rel="icon" type="image/png" href="assets/images/cri8or%20logo%20file.png">
+
+  <!-- Fonts -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap">
+
+  <!-- Main CSS -->
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-<!-- Header Section -->
-<header>
-    <div class="logo"><a href="index.html">cri8or</a></div>
-    <div class="collections"><a href="index.html">collections</a></div>
-</header>
-
-<!-- Main Image Section -->
-<img src="assets/images/cri8or%20logo%20file.png" alt="cri8or Logo" class="main-image">
-
-<!-- Explore the Collections Section -->
-<section class="explore-collections">
-    <h2>Explore the collections:</h2>
-    <div class="collection-buttons">
-        <a href="organic.html" class="collection-btn">Organic Shapes</a>
-        <a href="fluidity.html" class="collection-btn">Fluid Lines</a>
-        <a href="bold.html" class="collection-btn">Bold Colors</a>
-        <a href="geometric.html" class="collection-btn">Geometric Designs</a>
+  <header class="site-header">
+    <div class="logo">
+      <a href="index.html">
+        <img src="assets/images/cri8or%20logo%20file.png" alt="cri8or Logo" class="main-image">
+      </a>
     </div>
-</section>
+    <nav class="site-nav">
+      <a href="index.html">Work</a>
+      <a href="collections.html">Collections</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
 
-<!-- Footer Section -->
-<footer>
-    <a href="https://www.tiktok.com/@cri8or" target="_blank">TikTok</a>
-    <a href="https://github.com/cri8or" target="_blank">GitHub</a>
-    <a href="rss.xml" target="_blank">RSS Feed</a>
-    <a href="licensing.html">Licensing</a>
-    <a href="prints.html">Prints</a>
-    <a href="commissions.html">Commissions</a>
+  <main class="page">
+
+    <!-- Current work (top section) -->
+    <section class="hero">
+      <h1>Current work</h1>
+      <p>Selected recent generative pieces exploring line, noise and color fields.</p>
+    </section>
+
+    <section>
+      <section class="grid">
+        <!-- Replace images/links with your actual works -->
+        <a class="card" href="series-loop-noise.html">
+          <div class="card-image-wrapper">
+            <img src="images/loop-noise-01.jpg" alt="Loop Noise artwork">
+          </div>
+          <div class="card-title">Loop Noise</div>
+          <div class="card-meta">High-energy line and color studies</div>
+        </a>
+
+        <a class="card" href="series-soft-fields.html">
+          <div class="card-image-wrapper">
+            <img src="images/soft-fields-01.jpg" alt="Soft Fields artwork">
+          </div>
+          <div class="card-title">Soft Fields</div>
+          <div class="card-meta">Soft gradients and minimal marks</div>
+        </a>
+
+        <a class="card" href="series-monochrome-drift.html">
+          <div class="card-image-wrapper">
+            <img src="images/monochrome-drift-01.jpg" alt="Monochrome Drift artwork">
+          </div>
+          <div class="card-title">Monochrome Drift</div>
+          <div class="card-meta">Black and white structural drawings</div>
+        </a>
+      </section>
+    </section>
+
+    <!-- Explore collections (second section) -->
+    <section class="collections-section">
+      <h2 class="section-title">Explore collections</h2>
+      <p class="section-intro">
+        View complete series and curated sets of works grouped by theme and process.
+      </p>
+      <section class="grid">
+        <!-- Each card links to a collection overview page -->
+        <a class="card" href="collections-dense-line.html">
+          <div class="card-image-wrapper">
+            <img src="images/collection-dense-line.jpg" alt="Dense line collection cover">
+          </div>
+          <div class="card-title">Dense Line Studies</div>
+          <div class="card-meta">Tangled line and field compositions</div>
+        </a>
+
+        <a class="card" href="collections-soft-fields.html">
+          <div class="card-image-wrapper">
+            <img src="images/collection-soft-fields.jpg" alt="Soft fields collection cover">
+          </div>
+          <div class="card-title">Soft Fields</div>
+          <div class="card-meta">Quiet gradient-based abstractions</div>
+        </a>
+
+        <a class="card" href="collections-monochrome.html">
+          <div class="card-image-wrapper">
+            <img src="images/collection-monochrome.jpg" alt="Monochrome collection cover">
+          </div>
+          <div class="card-title">Monochrome Works</div>
+          <div class="card-meta">Limited-palette structural series</div>
+        </a>
+      </section>
+    </section>
+
+  </main>
+
+  <!-- Footer Section -->
+  <footer class="site-footer">
+    <nav class="footer-links">
+      <a href="https://www.tiktok.com/@cri8or" target="_blank">TikTok</a>
+      <a href="https://github.com/cri8or" target="_blank">GitHub</a>
+      <a href="rss.xml" target="_blank">RSS Feed</a>
+      <a href="licensing.html">Licensing</a>
+      <a href="prints.html">Prints</a>
+      <a href="commissions.html">Commissions</a>
+    </nav>
     <p>© 2025 cri8or. All Rights Reserved.</p>
-</footer>
-
-<script src="assets/js/script.js"></script>
-
+  </footer>
 </body>
 </html>
