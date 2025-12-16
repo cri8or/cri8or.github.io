@@ -1,41 +1,213 @@
-/* Explore the Collections Section */
-.explore-collections {
-    text-align: center;
-    margin-top: 40px;
+/* Base layout */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
 
-.explore-collections h2 {
-    font-size: 24px;
-    margin-bottom: 20px;
-    font-weight: bold;
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  color: #111;
+  background-color: #f7f5f2;
 }
 
-/* Collection Buttons */
-.collection-buttons {
-    display: flex;
-    justify-content: center;
-    gap: 15px;
-    flex-wrap: wrap;
+body {
+  line-height: 1.5;
 }
 
-.collection-btn {
-    background-color: #333;
-    color: white;
-    padding: 10px 20px;
-    border-radius: 25px;
-    text-decoration: none;
-    font-size: 16px;
-    transition: background-color 0.3s ease;
+/* Centered page column */
+.page {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 3rem 1.5rem 4rem;
 }
 
-.collection-btn:hover {
-    background-color: #0073e6;
+/* Header and navigation */
+.site-header {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 1.25rem 1.5rem 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-/* Main Image */
-.main-image {
-    width: 100%;
-    height: auto;
-    display: block;
-    margin: 20px 0;
+/* Logo with image */
+.logo a {
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.logo img.main-image {
+  height: 32px;   /* adjust to taste */
+  width: auto;
+  display: block;
+}
+
+/* Top navigation */
+.site-nav {
+  display: flex;
+  gap: 1.25rem;
+}
+
+.site-nav a {
+  font-size: 0.9rem;
+  text-decoration: none;
+  color: #444;
+  font-weight: 500;
+}
+
+.site-nav a:hover {
+  color: #000;
+}
+
+/* Hero / Current work top section */
+.hero {
+  margin: 3rem 0 2rem;
+}
+
+.hero h1 {
+  font-size: 2.2rem;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  margin: 0 0 0.75rem;
+}
+
+.hero p {
+  max-width: 34rem;
+  font-size: 1.05rem;
+  color: #444;
+  margin: 0;
+}
+
+/* Section titles (e.g., Explore collections) */
+.section-title {
+  font-size: 1.4rem;
+  font-weight: 400;
+  margin: 3rem 0 0.5rem;
+}
+
+.section-intro {
+  max-width: 34rem;
+  font-size: 0.98rem;
+  color: #555;
+  margin: 0 0 1.5rem;
+}
+
+/* Artwork / series grid */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 2.5rem;
+  margin-top: 2rem;
+}
+
+/* Each item (image + text) */
+.card {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Image area */
+.card-image-wrapper {
+  background-color: #e4dfd7;
+  border-radius: 2px;
+  overflow: hidden;
+  aspect-ratio: 4 / 3;
+}
+
+/* Make images fill the tile nicely */
+.card img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+/* Text under each image */
+.card-title {
+  margin-top: 0.75rem;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.card-meta {
+  margin-top: 0.15rem;
+  font-size: 0.85rem;
+  color: #666;
+}
+
+/* Text pages (About, etc.) */
+.text-page {
+  max-width: 40rem;
+}
+
+.text-page p {
+  margin: 0 0 1rem;
+}
+
+.text-page h2 {
+  font-size: 1.6rem;
+  font-weight: 400;
+  margin: 2rem 0 0.75rem;
+}
+
+/* Footer */
+.site-footer {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem 3rem;
+  font-size: 0.85rem;
+  color: #777;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.75rem;
+  text-align: center;
+}
+
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.75rem 1.5rem;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: #555;
+  font-weight: 400;
+}
+
+.footer-links a:hover {
+  color: #000;
+  text-decoration: underline;
+}
+
+/* Links */
+a {
+  color: inherit;
+}
+
+/* Responsive tweaks */
+@media (max-width: 768px) {
+  .site-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+
+  .hero {
+    margin-top: 2rem;
+  }
+
+  .hero h1 {
+    font-size: 2rem;
+  }
 }
