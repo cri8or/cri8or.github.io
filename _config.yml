@@ -1,24 +1,18 @@
 # Site settings
-title: PHOTORAMA
-email: ""
-description: "Photo Journal"
-url: "https://sunbliss.github.io"
-baseurl: "/photorama"
-facebook_username: ""
-twitter_username: ""
-instagram_username: ""
-github_username:  ""
-deviantart_username: ""
-flickr_username: ""
-discus_shortname: ""
+title: cri8or
+description: "art by cri8or"
+url: "https://cri8or.github.io/"
+baseurl: "/cri8or"
+github_username:  "cri80r"
+tiktok_username: "@cri8or"
 share: true
 
 # Owner/author information
 owner:
-  name:   photorama
+  name:   cri80r
   avatar: avatar.png
   favicon: favicon.ico
-  info: photography website template
+  info: digital abstract art portfolio
 
 # Settings for comments helper
 # Set 'provider' to the comment provider you want to use. (i.e.  Disqus, Intense Debate, livefyre, or Facebook Comments)
@@ -27,7 +21,7 @@ owner:
 # Disable comments for individual pages/posts by specifying 'comments: false' in the page/post YAML Front Matter.
 #
 comments :
-  provider : disqus
+  provider : false
   disqus :
     short_name : ""
 
